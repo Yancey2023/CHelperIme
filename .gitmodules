@@ -1,0 +1,4 @@
+[submodule "yuyansdk"]
+	path = yuyansdk
+	url = git@github.com:Yancey2023/yuyansdk.git
+	branch = chelper
