@@ -18,3 +18,4 @@ app/src/main/cpp/cmake-build-debug
 keystore.properties
 /app/offline/release/
 /app/online/release/
+.kotlin
