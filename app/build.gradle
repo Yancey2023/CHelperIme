@@ -82,8 +82,8 @@ android {
 
 File keystorePropertiesFile = rootProject.file("keystore.properties")
 if (keystorePropertiesFile.exists()) {
-    keystoreProperties = new Properties()
-    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+    Properties keystoreProperties = new Properties()
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
     android.signingConfigs {
         sign {
             keyAlias = keystoreProperties["keyAlias"] as String

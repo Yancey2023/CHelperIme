@@ -16,4 +16,5 @@ local.properties
 app/src/main/cpp/.idea
 app/src/main/cpp/cmake-build-debug
 keystore.properties
-/app/release/
+/app/offline/release/
+/app/online/release/
